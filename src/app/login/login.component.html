@@ -1,0 +1,14 @@
+<div>
+    <label>Username</label>
+    <input type="text" placeholder="username" [(ngModel)]="username" />
+    <br/>
+
+    <label>Password</label>
+    <input type="password" placeholder="Password" [(ngModel)]="password"/>
+    <br/>
+
+    <button (click)="onLogin()">Login</button>
+
+    <br/>
+    Access Token: {{accessToken}}
+</div>
