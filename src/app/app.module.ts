@@ -5,10 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { TosComponent } from './tos/tos.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TosComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
