@@ -1,0 +1,9 @@
+language: node_js
+
+branches:
+  only:
+    - master
+before_script:
+  - npm install -g @angular/cli
+  - npm install
+  - npm run test-headless
