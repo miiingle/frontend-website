@@ -14,9 +14,12 @@ before_script:
   - node --version
   - npm --version
   - npm install -g @angular/cli
+  - npm install -g firebase-tools
   - npm install
 
 script:
   - npm run lint
   - npm run test
   - npm run e2e
+  - npm run build
+  - firebase deploy --token "$FIREBASE_TOKEN"
