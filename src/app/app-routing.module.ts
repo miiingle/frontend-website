@@ -10,6 +10,7 @@ import { TypodemoComponent} from './typodemo/typodemo.component';
 import { ButtondemoComponent } from './buttondemo/buttondemo.component';
 import { IcondemoComponent } from './icondemo/icondemo.component';
 import { BadgedemoComponent } from './badgedemo/badgedemo.component';
+import {ToolbardemoComponent} from './toolbardemo/toolbardemo.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'button', component: ButtondemoComponent },
   { path: 'badge', component: BadgedemoComponent },
   { path: 'icon', component: IcondemoComponent },
+  { path: 'toolbar', component: ToolbardemoComponent },
   { path: 'typo', component: TypodemoComponent }
 ];
 
