@@ -19,6 +19,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import {MaterialModule} from './material/material.module';
 import { TypodemoComponent } from './typodemo/typodemo.component';
 import { ButtondemoComponent } from './buttondemo/buttondemo.component';
+import { IcondemoComponent } from './icondemo/icondemo.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ButtondemoComponent } from './buttondemo/buttondemo.component';
     FormComponent,
     DashboardComponent,
     TypodemoComponent,
-    ButtondemoComponent
+    ButtondemoComponent,
+    IcondemoComponent
   ],
   imports: [
     BrowserModule,

@@ -8,6 +8,7 @@ import { FormComponent } from './form/form.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {TypodemoComponent} from './typodemo/typodemo.component';
 import {ButtondemoComponent} from './buttondemo/buttondemo.component';
+import {IcondemoComponent} from './icondemo/icondemo.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'terms', component: TosComponent },
   { path: 'privacy', component: PrivacyComponent },
   { path: 'button', component: ButtondemoComponent },
+  { path: 'icon', component: IcondemoComponent },
   { path: 'typo', component: TypodemoComponent }
 ];
 
