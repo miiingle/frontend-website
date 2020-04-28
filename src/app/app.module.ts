@@ -20,6 +20,7 @@ import {MaterialModule} from './material/material.module';
 import { TypodemoComponent } from './typodemo/typodemo.component';
 import { ButtondemoComponent } from './buttondemo/buttondemo.component';
 import { IcondemoComponent } from './icondemo/icondemo.component';
+import { BadgedemoComponent } from './badgedemo/badgedemo.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { IcondemoComponent } from './icondemo/icondemo.component';
     DashboardComponent,
     TypodemoComponent,
     ButtondemoComponent,
-    IcondemoComponent
+    IcondemoComponent,
+    BadgedemoComponent
   ],
   imports: [
     BrowserModule,
