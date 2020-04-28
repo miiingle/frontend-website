@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./badgedemo.component.scss']
 })
 export class BadgedemoComponent implements OnInit {
+  badgeCount = 0;
 
   constructor() { }
 

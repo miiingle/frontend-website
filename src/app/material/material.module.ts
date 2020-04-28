@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatBadgeModule} from '@angular/material/badge';
 
 const MaterialComponents = [
   MatGridListModule,
@@ -27,7 +28,8 @@ const MaterialComponents = [
   MatButtonModule,
   MatDividerModule,
   MatIconModule,
-  MatButtonToggleModule
+  MatButtonToggleModule,
+  MatBadgeModule,
 ];
 
 @NgModule({
