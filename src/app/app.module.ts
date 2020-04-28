@@ -17,6 +17,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {MaterialModule} from './material/material.module';
+import { TypodemoComponent } from './typodemo/typodemo.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {MaterialModule} from './material/material.module';
     HomepageComponent,
     NavigationComponent,
     FormComponent,
-    DashboardComponent
+    DashboardComponent,
+    TypodemoComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FormComponent } from './form/form.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import {TypodemoComponent} from './typodemo/typodemo.component';
 
 
 const routes: Routes = [
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'nav', component: NavigationComponent },
   { path: 'form', component: FormComponent },
   { path: 'terms', component: TosComponent },
-  { path: 'privacy', component: PrivacyComponent }
+  { path: 'privacy', component: PrivacyComponent },
+  { path: 'typo', component: TypodemoComponent }
 ];
 
 @NgModule({
