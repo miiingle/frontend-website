@@ -7,6 +7,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { FormComponent } from './form/form.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import {TypodemoComponent} from './typodemo/typodemo.component';
+import {ButtondemoComponent} from './buttondemo/buttondemo.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'form', component: FormComponent },
   { path: 'terms', component: TosComponent },
   { path: 'privacy', component: PrivacyComponent },
+  { path: 'button', component: ButtondemoComponent },
   { path: 'typo', component: TypodemoComponent }
 ];
 
