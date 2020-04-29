@@ -13,10 +13,12 @@ import { BadgedemoComponent } from './badgedemo/badgedemo.component';
 import { ToolbardemoComponent } from './toolbardemo/toolbardemo.component';
 import { ListdemoComponent } from './listdemo/listdemo.component';
 import { ExpansionpaneldemoComponent } from './expansionpaneldemo/expansionpaneldemo.component';
+import {CardsdemoComponent} from './cardsdemo/cardsdemo.component';
 
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
+  { path: 'cards', component: CardsdemoComponent },
   { path: 'list', component: ListdemoComponent },
   { path: 'expansion', component: ExpansionpaneldemoComponent },
   { path: 'dashboard', component: DashboardComponent },
