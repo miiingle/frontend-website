@@ -10,13 +10,15 @@ import { TypodemoComponent} from './typodemo/typodemo.component';
 import { ButtondemoComponent } from './buttondemo/buttondemo.component';
 import { IcondemoComponent } from './icondemo/icondemo.component';
 import { BadgedemoComponent } from './badgedemo/badgedemo.component';
-import {ToolbardemoComponent} from './toolbardemo/toolbardemo.component';
-import {ListdemoComponent} from './listdemo/listdemo.component';
+import { ToolbardemoComponent } from './toolbardemo/toolbardemo.component';
+import { ListdemoComponent } from './listdemo/listdemo.component';
+import { ExpansionpaneldemoComponent } from './expansionpaneldemo/expansionpaneldemo.component';
 
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
   { path: 'list', component: ListdemoComponent },
+  { path: 'expansion', component: ExpansionpaneldemoComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'nav', component: NavigationComponent },
   { path: 'form', component: FormComponent },

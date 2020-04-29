@@ -14,10 +14,12 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatBadgeModule} from '@angular/material/badge';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 const MaterialComponents = [
   MatGridListModule,
   MatMenuModule,
+  MatExpansionModule,
   MatToolbarModule,
   MatSidenavModule,
   MatListModule,
