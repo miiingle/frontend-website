@@ -14,10 +14,12 @@ import { ToolbardemoComponent } from './toolbardemo/toolbardemo.component';
 import { ListdemoComponent } from './listdemo/listdemo.component';
 import { ExpansionpaneldemoComponent } from './expansionpaneldemo/expansionpaneldemo.component';
 import {CardsdemoComponent} from './cardsdemo/cardsdemo.component';
+import {TabdemoComponent} from './tabdemo/tabdemo.component';
 
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
+  { path: 'tabs', component: TabdemoComponent },
   { path: 'cards', component: CardsdemoComponent },
   { path: 'list', component: ListdemoComponent },
   { path: 'expansion', component: ExpansionpaneldemoComponent },
