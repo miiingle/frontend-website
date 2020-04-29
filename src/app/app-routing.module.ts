@@ -15,10 +15,12 @@ import { ListdemoComponent } from './listdemo/listdemo.component';
 import { ExpansionpaneldemoComponent } from './expansionpaneldemo/expansionpaneldemo.component';
 import {CardsdemoComponent} from './cardsdemo/cardsdemo.component';
 import {TabdemoComponent} from './tabdemo/tabdemo.component';
+import {StepperdemoComponent} from './stepperdemo/stepperdemo.component';
 
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
+  { path: 'stepper', component: StepperdemoComponent },
   { path: 'tabs', component: TabdemoComponent },
   { path: 'cards', component: CardsdemoComponent },
   { path: 'list', component: ListdemoComponent },

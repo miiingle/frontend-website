@@ -26,6 +26,7 @@ import { ListdemoComponent } from './listdemo/listdemo.component';
 import { ExpansionpaneldemoComponent } from './expansionpaneldemo/expansionpaneldemo.component';
 import { CardsdemoComponent } from './cardsdemo/cardsdemo.component';
 import { TabdemoComponent } from './tabdemo/tabdemo.component';
+import { StepperdemoComponent } from './stepperdemo/stepperdemo.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { TabdemoComponent } from './tabdemo/tabdemo.component';
     ListdemoComponent,
     ExpansionpaneldemoComponent,
     CardsdemoComponent,
-    TabdemoComponent
+    TabdemoComponent,
+    StepperdemoComponent
   ],
   imports: [
     BrowserModule,
