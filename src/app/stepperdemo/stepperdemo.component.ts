@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StepperdemoComponent implements OnInit {
 
+  selectedValue: string;
+
   constructor() { }
 
   ngOnInit(): void {

@@ -10,13 +10,15 @@
 
     <mat-form-field>
       <mat-label>Topic</mat-label>
-      <mat-select>
-        <mat-option>Angular</mat-option>
-        <mat-option>React</mat-option>
-        <mat-option>Vue</mat-option>
+      <mat-select [(value)]="selectedValue">
+        <mat-option>None</mat-option>
+        <mat-option value="angular">Angular</mat-option>
+        <mat-option value="react">React</mat-option>
+        <mat-option value="vue">Vue</mat-option>
       </mat-select>
       <mat-hint align="end">Please pick one...</mat-hint>
     </mat-form-field>
+    <h3>{{selectedValue}}</h3>
   </mat-step>
 
   <mat-step label="Billing Address">
