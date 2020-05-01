@@ -12,9 +12,16 @@
       <mat-label>Topic</mat-label>
       <mat-select [(value)]="selectedValue">
         <mat-option>None</mat-option>
-        <mat-option value="angular">Angular</mat-option>
-        <mat-option value="react">React</mat-option>
-        <mat-option value="vue">Vue</mat-option>
+        <mat-optgroup label="Web">
+          <mat-option value="angular">Angular</mat-option>
+          <mat-option value="react">React</mat-option>
+          <mat-option value="vue">Vue</mat-option>
+        </mat-optgroup>
+        <mat-optgroup label="Backend">
+          <mat-option value="java">Java</mat-option>
+          <mat-option value="node">Node.JS</mat-option>
+          <mat-option value=".net">.NET</mat-option>
+        </mat-optgroup>
       </mat-select>
       <mat-hint align="end">Please pick one...</mat-hint>
     </mat-form-field>
