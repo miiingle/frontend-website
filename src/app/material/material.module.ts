@@ -17,6 +17,8 @@ import {MatBadgeModule} from '@angular/material/badge';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatStepperModule} from '@angular/material/stepper';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 const MaterialComponents = [
   MatGridListModule,
@@ -36,6 +38,8 @@ const MaterialComponents = [
   MatBadgeModule,
   MatTabsModule,
   MatStepperModule,
+  MatAutocompleteModule,
+  MatSlideToggleModule,
 ];
 
 @NgModule({
