@@ -25,4 +25,14 @@ export class SnackbardemoComponent implements OnInit {
     });
   }
 
+  click2() {
+    this.snackBar.openFromComponent(ImbaSnackbarComponent, {duration: 5000});
+  }
+
 }
+
+@Component({
+  selector: 'app-custom-snackbar',
+  template: '<span style="color: pink">A Custom Snackbar Bitches!!!</span>'
+})
+export class ImbaSnackbarComponent {}

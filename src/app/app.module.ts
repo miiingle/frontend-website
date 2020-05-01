@@ -27,7 +27,7 @@ import { ExpansionpaneldemoComponent } from './expansionpaneldemo/expansionpanel
 import { CardsdemoComponent } from './cardsdemo/cardsdemo.component';
 import { TabdemoComponent } from './tabdemo/tabdemo.component';
 import { StepperdemoComponent } from './stepperdemo/stepperdemo.component';
-import { SnackbardemoComponent } from './snackbardemo/snackbardemo.component';
+import {ImbaSnackbarComponent, SnackbardemoComponent} from './snackbardemo/snackbardemo.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +48,8 @@ import { SnackbardemoComponent } from './snackbardemo/snackbardemo.component';
     CardsdemoComponent,
     TabdemoComponent,
     StepperdemoComponent,
-    SnackbardemoComponent
+    SnackbardemoComponent,
+    ImbaSnackbarComponent,
   ],
   imports: [
     BrowserModule,
