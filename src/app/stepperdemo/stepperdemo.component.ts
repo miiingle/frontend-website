@@ -16,6 +16,9 @@ export interface State {
 })
 export class StepperdemoComponent implements OnInit {
 
+  maxDate = new Date(2020, 12, 1);
+  minDate = new Date();
+
   selectedValue: string;
   stateCtrl = new FormControl();
   filteredStates: Observable<State[]>;
@@ -59,6 +62,11 @@ export class StepperdemoComponent implements OnInit {
     const filterValue = value.toLowerCase();
 
     return this.states.filter(state => state.name.toLowerCase().indexOf(filterValue) === 0);
+  }
+
+  notWeekend = date => {
+    const day = date.getDay();
+    return day !== 0 && day !== 6;
   }
 
   ngOnInit(): void {

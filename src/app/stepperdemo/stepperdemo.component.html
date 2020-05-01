@@ -62,6 +62,11 @@
 
   <mat-step label="Place Order">
     <p>Order Details</p>
+    <mat-form-field>
+      <input matInput [matDatepicker]="myDatePicker" [max]="maxDate" [min]="minDate" [matDatepickerFilter]="notWeekend">
+      <mat-datepicker-toggle [for]="myDatePicker" matSuffix></mat-datepicker-toggle>
+      <mat-datepicker #myDatePicker></mat-datepicker>
+    </mat-form-field>
   </mat-step>
 
 </mat-horizontal-stepper>
