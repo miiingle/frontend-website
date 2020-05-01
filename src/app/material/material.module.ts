@@ -21,6 +21,7 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 const MaterialComponents = [
   MatGridListModule,
@@ -44,6 +45,7 @@ const MaterialComponents = [
   MatSlideToggleModule,
   MatDatepickerModule,
   MatNativeDateModule,
+  MatTooltipModule,
 ];
 
 @NgModule({
