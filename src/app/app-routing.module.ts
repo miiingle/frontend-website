@@ -13,10 +13,10 @@ import { BadgedemoComponent } from './badgedemo/badgedemo.component';
 import { ToolbardemoComponent } from './toolbardemo/toolbardemo.component';
 import { ListdemoComponent } from './listdemo/listdemo.component';
 import { ExpansionpaneldemoComponent } from './expansionpaneldemo/expansionpaneldemo.component';
-import {CardsdemoComponent} from './cardsdemo/cardsdemo.component';
-import {TabdemoComponent} from './tabdemo/tabdemo.component';
-import {StepperdemoComponent} from './stepperdemo/stepperdemo.component';
-import {SnackbardemoComponent} from './snackbardemo/snackbardemo.component';
+import { CardsdemoComponent } from './cardsdemo/cardsdemo.component';
+import { TabdemoComponent} from './tabdemo/tabdemo.component';
+import { StepperdemoComponent } from './stepperdemo/stepperdemo.component';
+import { SnackbardemoComponent } from './snackbardemo/snackbardemo.component';
 
 
 const routes: Routes = [
