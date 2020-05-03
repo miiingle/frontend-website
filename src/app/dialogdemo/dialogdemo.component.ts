@@ -17,7 +17,11 @@ export class DialogdemoComponent implements OnInit {
   }
 
   openDialog() {
-    const dialogRef = this.dialog.open(DialogContentComponent);
+    const dialogRef = this.dialog.open(DialogContentComponent, {
+      data: {
+        name: 'Test Name'
+      }
+    });
 
     dialogRef.afterClosed().subscribe(result => {
       this.lastLog = `Result: ${result}`;
