@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ExpansionpaneldemoComponent } from './expansionpaneldemo.component';
+import { HomePageComponent } from './home-page.component';
 
-describe('ExpansionpaneldemoComponent', () => {
-  let component: ExpansionpaneldemoComponent;
-  let fixture: ComponentFixture<ExpansionpaneldemoComponent>;
+describe('HomePageComponent', () => {
+  let component: HomePageComponent;
+  let fixture: ComponentFixture<HomePageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ExpansionpaneldemoComponent ]
+      declarations: [ HomePageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ExpansionpaneldemoComponent);
+    fixture = TestBed.createComponent(HomePageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
