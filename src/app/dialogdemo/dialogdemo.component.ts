@@ -18,8 +18,8 @@ export class DialogdemoComponent implements OnInit {
 
   openDialog() {
     const dialogRef = this.dialog.open(DialogContentComponent, {
-      width: '700px',
-      height: '350px',
+      // width: '700px',
+      // height: '350px',
       data: {
         name: 'Test Name'
       }
