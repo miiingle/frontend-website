@@ -9,13 +9,19 @@ import {DialogContentComponent} from './dialog-content/dialog-content.component'
 })
 export class DialogdemoComponent implements OnInit {
 
+  lastLog = 'None';
+
   constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
   }
 
   openDialog() {
-    this.dialog.open(DialogContentComponent);
+    const dialogRef = this.dialog.open(DialogContentComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      this.lastLog = `Result: ${result}`;
+    });
   }
 
 }
