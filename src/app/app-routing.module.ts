@@ -17,10 +17,12 @@ import { CardsdemoComponent } from './cardsdemo/cardsdemo.component';
 import { TabdemoComponent} from './tabdemo/tabdemo.component';
 import { StepperdemoComponent } from './stepperdemo/stepperdemo.component';
 import { SnackbardemoComponent } from './snackbardemo/snackbardemo.component';
+import {DialogdemoComponent} from './dialogdemo/dialogdemo.component';
 
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
+  { path: 'dialog', component: DialogdemoComponent },
   { path: 'snackbar', component: SnackbardemoComponent },
   { path: 'stepper', component: StepperdemoComponent },
   { path: 'tabs', component: TabdemoComponent },

@@ -28,6 +28,8 @@ import { CardsdemoComponent } from './cardsdemo/cardsdemo.component';
 import { TabdemoComponent } from './tabdemo/tabdemo.component';
 import { StepperdemoComponent } from './stepperdemo/stepperdemo.component';
 import {ImbaSnackbarComponent, SnackbardemoComponent} from './snackbardemo/snackbardemo.component';
+import { DialogdemoComponent } from './dialogdemo/dialogdemo.component';
+import { DialogContentComponent } from './dialogdemo/dialog-content/dialog-content.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +52,8 @@ import {ImbaSnackbarComponent, SnackbardemoComponent} from './snackbardemo/snack
     StepperdemoComponent,
     SnackbardemoComponent,
     ImbaSnackbarComponent,
+    DialogdemoComponent,
+    DialogContentComponent,
   ],
   imports: [
     BrowserModule,
